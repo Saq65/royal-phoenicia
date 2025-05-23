@@ -1,10 +1,18 @@
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './App.css';
+import MainLayout from './components/Layout/MainLayout';
 
 function App() {
   return (
-    <div>
-       <h2>Royal-phoenicia</h2>
-    </div>
+    <>
+      <BrowserRouter>
+        <Routes>
+          <Route path='/' exact element={<MainLayout />} >
+         
+          </Route>
+        </Routes>
+      </BrowserRouter>
+    </>
   );
 }
 
