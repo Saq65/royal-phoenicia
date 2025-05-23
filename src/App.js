@@ -1,6 +1,7 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './App.css';
 import MainLayout from './components/Layout/MainLayout';
+import { Home } from './pages/Home';
 
 function App() {
   return (
@@ -8,7 +9,7 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path='/' exact element={<MainLayout />} >
-         
+            <Route path='/' element={<Home/>} />
           </Route>
         </Routes>
       </BrowserRouter>

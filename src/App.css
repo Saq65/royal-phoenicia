@@ -11,10 +11,8 @@ body {
 .header {
   width: 100%;
   height: 104px;
-  border-bottom: 1px solid #748598;
-  background-color: #466a92;
-  backdrop-filter: blur(10px);
-  background-blend-mode: color-burn;
+  -webkit-backdrop-filter: blur(4px);
+  backdrop-filter: blur(4px);
   position: fixed;
   top: 0;
   bottom: 0;
@@ -50,4 +48,53 @@ body {
   border-bottom: 1px solid #fff;
   width: 100%;
   padding: 0%;
+  cursor: pointer;
+}
+
+@keyframes fade-up {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-up {
+  animation: fade-up 1s ease-out;
+}
+
+@keyframes fade-up {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fade-zoom {
+  0% {
+    opacity: 0;
+    transform: scale(1.05);
+  }
+
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.animate-fade-up {
+  animation: fade-up 1s ease-out;
+}
+
+.animate-fade-zoom {
+  animation: fade-zoom 2s ease-out;
 }
