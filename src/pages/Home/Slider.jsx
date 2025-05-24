@@ -31,28 +31,31 @@ const Slider = () => {
 
 
     return (
-        <Swiper
-            modules={[Autoplay, EffectFade, Pagination]}
-            pagination={{ clickable: true }}
-            autoplay={{ delay: 5000, disableOnInteraction: false }}
-            loop
-            effect="fade"
-            className="h-screen"
-        >
-            {slides.map((slide, index) => (
-                <SwiperSlide key={index}>
-                    <div
-                        className="h-screen bg-cover bg-center flex items-center justify-center animate-fade-zoom"
-                        style={{ backgroundImage: `url(${slide.image})` }}
-                    >
-                        <div className="text-center text-white p-8 rounded animate-fade-up">
-                            <h1 className="text-6xl  mb-4">{slide.title}</h1>
-                            <p className="text-xl">{slide.subtitle}</p>
+        <div className=''>
+            <Swiper
+                modules={[Autoplay, EffectFade]}
+                pagination={{ clickable: true }}
+                autoplay={{ delay: 5000, disableOnInteraction: false }}
+                loop
+                effect="fade"
+                className="h-screen"
+            >
+                {slides.map((slide, index) => (
+                    <SwiperSlide key={index}>
+                        <div
+                            className="h-screen bg-cover bg-center flex items-center justify-center animate-fade-zoom"
+                            style={{ backgroundImage: `url(${slide.image})` }}
+                        >
+                            <div className="text-center text-white p-8 rounded animate-fade-up">
+                                <h1 className="text-6xl  mb-4">{slide.title}</h1>
+                                <p className="text-xl">{slide.subtitle}</p>
+                            </div>
                         </div>
-                    </div>
-                </SwiperSlide>
-            ))}
-        </Swiper>
+                    </SwiperSlide>
+                ))}
+            </Swiper>
+        </div>
+
     );
 };
 
