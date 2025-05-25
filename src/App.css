@@ -101,3 +101,9 @@ body {
 .animate-fade-zoom {
   animation: fade-zoom 1s ease-out;
 }
+
+@media screen and (max-width:768px) {
+  .header{
+    zoom: 45%;
+  }
+}

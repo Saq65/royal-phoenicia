@@ -1,3 +1,4 @@
+import { IoIosArrowForward } from "react-icons/io";
 import "../../styles/Thirdsection.css";
 
 export const ThirdSection = () => {
@@ -55,9 +56,14 @@ export const ThirdSection = () => {
                         </div>
 
                         <div className="d-flex justify-content-center mt-auto p-3">
-                            <button className="px-6 py-2 bg-gray-200 border border-gray-800 rounded-full text-gray-700 font-serif hover:bg-gray-100 transition">
-                                Spa & Wellness
-                            </button>
+                          <div className="group relative mt-10">
+                                   <button className="px-6 py-2 bg-light border border-gray-500 rounded-full text-gray-700 font-serif hover:bg-gray-100 transition">
+                                     <span className="group-hover:hidden">Spa & Wellness</span>
+                                     <span className="group-hover:block hidden" >
+                                       <IoIosArrowForward className="text-dark fs-xxl" />
+                                     </span>
+                                   </button>
+                                 </div>
                         </div>
                     </div>
 

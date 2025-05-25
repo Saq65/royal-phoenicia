@@ -4,6 +4,7 @@ import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/effect-fade";
 import "../../styles/FavHotel.css";
+import { IoIosArrowForward } from "react-icons/io";
 
 const slides = [
   {
@@ -105,9 +106,14 @@ export default function FavHotel() {
             </div>
           </div>
           <div className="flex justify-center align-center p-2 py-5">
-            <button className="mt-10 bg-light px-6 py-2 border border-gray-800 rounded-full text-gray-700 font-serif hover:bg-gray-100 transition">
-              Accommodation
-            </button>
+            <div className="group relative mt-10">
+              <button className="px-6 py-2 bg-light border border-gray-500 rounded-full text-gray-700 font-serif hover:bg-gray-100 transition">
+                <span className="group-hover:hidden">Accommodation</span>
+                <span className="group-hover:block hidden" >
+                  <IoIosArrowForward className="text-dark fs-xxl" />
+                </span>
+              </button>
+            </div>
           </div>
 
         </div>

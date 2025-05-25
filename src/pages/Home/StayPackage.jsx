@@ -23,13 +23,12 @@ const StayPackage = () => {
                 </div>
 
                 <div>
-                    <div className="my-swiper" style={{ paddingLeft: "80px" }}>
+                    <div className="my-swiper" >
                         <Swiper
                             spaceBetween={30}
                             slidesPerView={2}
-                            slidesOffsetBefore={40}
                             breakpoints={{
-                                768: { slidesPerView: 2 },
+                                768: { slidesPerView: 1 },
                                 992: { slidesPerView: 3 },
                             }}
                         >
