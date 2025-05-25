@@ -1,0 +1,83 @@
+.footer {
+  width: 100%;
+  background-color: #3a6a89;
+  min-height: 500px;
+  color: white;
+}
+
+.listfooter ul {
+  list-style: none;
+  padding: 0;
+}
+
+.listfooter ul li {
+  font-family: 'Crimson Text', serif;
+  font-size: 24px;
+  margin-bottom: 15px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.moreabout-text {
+  font-family: 'Crimson Text', serif;
+  font-size: 21px;
+  letter-spacing: 2.4px;
+  margin-bottom: 10px;
+}
+
+.comfort span {
+  display: block;
+  color: #C5C5C5;
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 6px;
+}
+
+.comfort span:hover {
+  color: #fff;
+  cursor: pointer;
+}
+
+.footerthird {
+  background-color: #1b3d5d;
+  padding: 30px;
+}
+
+.footerthird:hover{
+    transform: scaleX(1.08);
+    cursor: pointer;
+    transition-delay: 8ms;
+}
+
+.footer-heading {
+  font-family: 'Crimson Text', serif;
+  font-size: 21px;
+  font-weight: 500;
+}
+
+.logo-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.address span {
+  font-family: 'Poppins', sans-serif;
+  color: #C5C5C5;
+  font-size: 14px;
+  display: block;
+  line-height: 1.6;
+}
+
+.social-icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.social-icons svg {
+  font-size: 17px;
+  color: #fff;
+  cursor: pointer;
+}

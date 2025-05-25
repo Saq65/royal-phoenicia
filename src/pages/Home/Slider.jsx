@@ -1,5 +1,5 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Pagination, Autoplay, EffectFade } from 'swiper/modules';
+import { Autoplay, EffectFade } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/effect-fade';
@@ -44,7 +44,7 @@ const Slider = () => {
                     <SwiperSlide key={index}>
                         <div
                             className="h-screen bg-cover bg-center flex items-center justify-center animate-fade-zoom"
-                            style={{ backgroundImage: `url(${slide.image})` }}
+                            style={{ backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url(${slide.image})` }}
                         >
                             <div className="text-center text-white p-8 rounded animate-fade-up">
                                 <h1 className="text-6xl  mb-4">{slide.title}</h1>

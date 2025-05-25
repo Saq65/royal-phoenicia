@@ -1,4 +1,7 @@
+import Benefits from './Home/Benifits'
+import Corporate from './Home/Corporate'
 import FavHotel from './Home/FavHotel'
+import FourthSection from './Home/FourthSection'
 import Slider from './Home/Slider'
 import StayPackage from './Home/StayPackage'
 import { ThirdSection } from './Home/ThirdSection'
@@ -12,6 +15,9 @@ export const Home = () => {
             <FavHotel/>
             <StayPackage/>
             <ThirdSection/>
+            <FourthSection/>
+            <Benefits />
+            <Corporate/>
         </div>
     )
 }

@@ -1,0 +1,66 @@
+.third-section-container {
+    margin-top: 100px;
+    overflow: hidden;
+}
+
+.zoom-bg {
+    position: relative;
+    overflow: hidden;
+    height: 560px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: transform 0.5s ease;
+    transition-delay: 1ms;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.zoom-bg:hover {
+    transform: scaleX(1.10);
+    cursor: pointer;
+}
+
+.zoom-content {
+    opacity: 1;
+    transform: translateY(20px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 42%;
+    width: 100%;
+    height: 100%;
+}
+
+.zoom-content p {
+    margin: 0;
+    font-size: 30px;
+    font-family: Crimson Text;
+}
+
+.zoom-content span {
+    display: block;
+    font-size: 45px;
+}
+
+.zoom-content .forthose-container {
+    opacity: 0;
+}
+
+.zoom-content .forthose {
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 12.6px;
+    width: 46%;
+    text-align: center;
+    color: #fff;
+}
+
+.zoom-content .forthose-container:hover {
+    opacity: 1;
+}

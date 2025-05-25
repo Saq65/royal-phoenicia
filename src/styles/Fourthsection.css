@@ -1,0 +1,52 @@
+.forth-section {
+    width: 100%;
+    margin-top: 100px;
+}
+
+.exeptional {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.exeptional p {
+    text-transform: capitalize;
+    font-family: Crimson Text;
+    font-weight: 400;
+    vertical-align: middle;
+    font-size: 52px;
+    line-height: 1.2;
+  animation: typing 3s steps(30, end) forwards, blink 0.7s infinite;
+    overflow: hidden;
+}
+
+@keyframes typing {
+  from { width: 0; }
+  to { width: 100%; }
+}
+
+@keyframes blink {
+  0%, 100% { border-color: transparent; }
+  50% { border-color: white; }
+}
+
+.horizental-slider{
+    margin-top: 50px;
+   
+}
+
+.about-text{
+    font-weight: 400;
+    font-size: 30px;
+    font-family: Crimson Text;
+}
+
+.royaltext{
+    font-family: Poppins;
+    font-size: 16px;
+    color: #777777;
+    width: 70%;
+    text-align: justify;
+}
+

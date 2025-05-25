@@ -56,6 +56,10 @@ const StayPackage = () => {
                             ))}
                         </Swiper>
                     </div>
+
+                    <div className='mx-auto' style={{borderBottom:'1px solid #777777',width:'90%',paddingBottom:'70px'}}>
+
+                    </div>
                 </div>
             </div>
         </div>
