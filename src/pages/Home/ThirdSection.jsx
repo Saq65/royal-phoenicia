@@ -5,7 +5,7 @@ export const ThirdSection = () => {
     return (
         <div>
             <div className="third-section-container ">
-                <div className="row w-100 mx-auto">
+                <div style={{rowGap:'1.5px'}} className="row w-100 mx-auto">
                     <div
                         className="col-lg-4 zoom-bg"
                         style={{
