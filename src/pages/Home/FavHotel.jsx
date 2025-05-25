@@ -88,7 +88,7 @@ export default function FavHotel() {
         </div>
 
         <div className="mt-5">
-          <div className="row w-100 justify-content-center align-items-center mx-auto">
+          <div style={{rowGap:'20px'}} className="row mx-auto">
             <div className="col-lg-4 col-12">
               <div className="card border-0 rounded-0 first-card">
                 <h1>Rooms</h1>

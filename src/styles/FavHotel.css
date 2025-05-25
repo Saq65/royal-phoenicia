@@ -140,3 +140,10 @@
 .second-fav .row > div:nth-child(3) .first-card::before {
   background-image: url('../../public/images/third-p.jpg');
 }
+
+
+@media screen and (max-width:768px) {
+  .slider-container{
+    width: 90%;
+  }
+}

@@ -47,8 +47,8 @@ const Slider = () => {
                             style={{ backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url(${slide.image})` }}
                         >
                             <div className="text-center text-white p-8 rounded animate-fade-up">
-                                <h1 className="text-6xl  mb-4">{slide.title}</h1>
-                                <p className="text-xl">{slide.subtitle}</p>
+                                <h1 style={{fontFamily:'Crimson Text'}} className="text-6xl mb-4">{slide.title}</h1>
+                                <p style={{fontFamily:'Poppins'}} className="text-xl">{slide.subtitle}</p>
                             </div>
                         </div>
                     </SwiperSlide>

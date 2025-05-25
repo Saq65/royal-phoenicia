@@ -50,3 +50,14 @@
     text-align: justify;
 }
 
+
+@media screen and (max-width:768px) {
+  .exeptional p{
+    text-align: center;
+    font-size: 30px;
+  }
+
+  .royaltext{
+    width: 100%;
+  }
+}

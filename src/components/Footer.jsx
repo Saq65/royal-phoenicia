@@ -6,7 +6,7 @@ import "../styles/Footer.css";
 const Footer = () => {
   return (
     <div className="footer row m-0 ">
-      <div className="col-lg-4 col-12 d-flex justify-content-center align-items-center">
+      <div className="col-lg-4 col-12 col-md-4 d-flex justify-content-center align-items-center">
         <div className="listfooter">
           <ul>
             <li><span>I</span> Rooms</li>
@@ -18,7 +18,7 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className="col-lg-4 col-12 d-flex flex-column justify-content-center align-items-center">
+      <div className="col-lg-4 col-12  col-4 d-flex flex-column justify-content-center align-items-center">
         <p className="moreabout-text">More about rooms</p>
         <div className="comfort">
           <span>120 comfortable rooms</span>
@@ -28,7 +28,7 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className="col-lg-4 col-12 footerthird text-center text-light">
+      <div className="col-lg-4 col-12 col-md-4 footerthird text-center text-light">
         <div className="logo-container mb-3">
           <img
             src="../images/Group 81.png"

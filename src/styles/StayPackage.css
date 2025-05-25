@@ -92,4 +92,8 @@
     .my-swiper{
         padding-left: unset;
     }
+    .stay-pack-container{
+        min-height: unset;
+        padding: 0.5rem;
+    }
 }

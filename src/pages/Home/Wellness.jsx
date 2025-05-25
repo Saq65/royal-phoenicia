@@ -3,7 +3,7 @@ import { IoIosArrowForward } from "react-icons/io"
 function Wellness() {
   return (
     <div>
-      <section className="h-screen bg-white flex flex-col justify-center items-center text-center px-4">
+      <section className="mt-5 bg-white flex flex-col justify-center items-center text-center px-4">
         <div className="mb-8 animate-bounce">
           <div className="border border-gray-400 rounded w-10 h-10 flex items-center justify-center">
             <span className="text-xl font-serif">I</span>
