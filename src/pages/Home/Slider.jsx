@@ -38,8 +38,7 @@ const Slider = () => {
                 autoplay={{ delay: 5000, disableOnInteraction: false }}
                 loop
                 effect="fade"
-                className="h-screen"
-            >
+                className="h-screen">
                 {slides.map((slide, index) => (
                     <SwiperSlide key={index}>
                         <div

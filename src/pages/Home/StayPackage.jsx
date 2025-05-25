@@ -26,23 +26,22 @@ const StayPackage = () => {
                     <div className="my-swiper" >
                         <Swiper
                             spaceBetween={30}
-                            slidesPerView={2}
                             breakpoints={{
                                 768: { slidesPerView: 1 },
-                                992: { slidesPerView: 3 },
-                            }}
-                        >
+                                992: { slidesPerView: 2 },
+                                1048: { slidesPerView: 3 }
+                            }}>
+
                             {data.map((item, index) => (
                                 <SwiperSlide key={index}>
                                     <div
                                         className="hover-slide"
                                         style={{
-                                            backgroundImage: `url(${item.image})`,
+                                            backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(${item.image})`,
                                             backgroundSize: 'cover',
                                             backgroundRepeat: 'no-repeat',
                                             backgroundPosition: 'center'
-                                        }}
-                                    >
+                                        }}>
                                         <div className='content-stay'>
                                             <span>all season</span>
                                             <p className='text-center'>{item.description} <br />
@@ -56,7 +55,7 @@ const StayPackage = () => {
                         </Swiper>
                     </div>
 
-                    <div className='mx-auto' style={{borderBottom:'1px solid #777777',width:'90%',paddingBottom:'70px'}}>
+                    <div className='mx-auto' style={{ borderBottom: '1px solid #777777', width: '90%', paddingBottom: '70px' }}>
 
                     </div>
                 </div>
